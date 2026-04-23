@@ -21,3 +21,4 @@ python -c "import torch; print(torch.version)"
 python -c "import torch_geometric; print(torch_geometric.version)"
 python -c "import torch; print(torch.version, torch.version.cuda, torch.cuda.is_available())"
 python -c "import torch_geometric; print(torch_geometric.version)"
+python main.py --dataset pubmed --max_epochs 3 --batch_size 16
